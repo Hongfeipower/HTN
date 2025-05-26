@@ -9,13 +9,14 @@ Hypertension (HTN) may induce liver damage, yet the effects on liver cell subpop
   * ATAC_GeneScore_AverageExpression.csv is a CSV file recording GeneScore for scATAC-seq.
   * peak.csv is a CSV file containing all peak positions and cell types.
 - RNA
-  * Hepatocytes_1_eG.csv
-  * Hepatocytes_1_grup_differential_gene.csv: 
+  * Hepatocytes_1_grup_differential_gene.csv: Differentially expressed genes between HTN and normal in Hepatocytes_1.
   * cell_type.csv: Cell annotation results corresponding to cell clusters
   * new_type_all_markers.csv: The differentially expressed genes from manual annotations (secondary annotations).
   * new_type_number_cluster_group.csv: The number of cells assigned to each cell type by manual annotation (secondary annotations).
   * original_all_markers_intergrate.csv:The differentially expressed genes from auto annotations (first annotations based on SingleR).
   * original_number_cluster_group.csv: The number of cells assigned to each cell type by auto annotations (first annotations based on SingleR).
+  * integrate_RNA_AverageExpression.csv:Average expression values of 2,000 genes in the first auto-annotated cell types.
+  * new_type_RNA_AverageExpression.csv: Average expression values of 2,000 genes in the finally manual annotated celltypes.
 
 - Code
   * Step 1. scRNA.r: R code for analyzing scATAC-seq data using ArchR.
