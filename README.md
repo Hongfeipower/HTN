@@ -6,10 +6,23 @@ Hypertension (HTN) may induce liver damage, yet the effects on liver cell subpop
 
 ## Folder Description
 - ATAC
-  * ATAC_GeneScore_AverageExpression.csv is an 
+  * ATAC_GeneScore_AverageExpression.csv is a CSV file recording GeneScore for scATAC-seq.
+  * peak.csv is a CSV file containing all peak positions and cell types.
 - RNA
+  * Hepatocytes_1_eG.csv
+  * Hepatocytes_1_grup_differential_gene.csv
+  * cell_type.csv
+  * new_type_all_markers.csv
+  * new_type_number_cluster_group.csv
+  * original_all_markers_intergrate.csv
+  * original_number_cluster_group.csv
+
 - Code
-- network
+  * Step 1. scRNA.r: R code for analyzing scATAC-seq data using ArchR.
+  * Step 2. Pseudotime.R: R code for trajectory analysis.
+  * Step 3. constrained_scATAC.R: R code for analyzing scATAC-seq data using ArchR.
+  * Step 4. new_network.R :Code for constructing promoter and enhancer regulatory networks.
+  
 - promoter_enhancer:bedfile for promoter and enhancer
   * HTN_Hep1_enhancer.bed is an enhancer BED file for the HTN state of Hepatocytes_1.
   * HTN_Hep1_promoter.bed is an promoter BED file for the HTN state of Hepatocytes_1.
