@@ -16,7 +16,7 @@ Hypertension (HTN) may induce liver damage, yet the effects on liver cell subpop
   * original_all_markers_intergrate.csv:The differentially expressed genes from auto annotations (first annotations based on SingleR).
   * original_number_cluster_group.csv: The number of cells assigned to each cell type by auto annotations (first annotations based on SingleR).
   * integrate_RNA_AverageExpression.csv:Average expression values of 2,000 genes in the first auto-annotated cell types.
-  * new_type_RNA_AverageExpression.csv: Average expression values of 2,000 genes in the finally manual annotated celltypes.
+  * new_type_RNA_AverageExpression.csv: Average expression values of 2,000 genes in the finally manual annotated cell types.
 
 - Code
   * Step 1. scRNA.r: R code for analyzing scATAC-seq data using ArchR.
