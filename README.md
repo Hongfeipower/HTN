@@ -6,5 +6,12 @@ Hypertension (HTN) may induce liver damage, yet the effects on liver cell subpop
 
 ## Folder Description
 - ATAC
+  * ATAC_GeneScore_AverageExpression.csv is an 
 - RNA
-- CODE
+- Code
+- network
+- promoter_enhancer:bedfile for promoter and enhancer
+  * HTN_Hep1_enhancer.bed is an enhancer BED file for the HTN state of Hepatocytes_1.
+  * HTN_Hep1_promoter.bed is an promoter BED file for the HTN state of Hepatocytes_1.
+  * normal_Hep1_enhancer.bed is an enhancer BED file for the normal state of Hepatocytes_1.
+  * normal_Hep1_promoter.bed is an promoter BED file for the normal state of Hepatocytes_1.
