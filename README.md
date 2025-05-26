@@ -22,7 +22,7 @@ Hypertension (HTN) may induce liver damage, yet the effects on liver cell subpop
   * Step 1. scRNA.r: R code for analyzing scATAC-seq data using ArchR.
   * Step 2. Pseudotime.R: R code for trajectory analysis.
   * Step 3. constrained_scATAC.R: R code for analyzing scATAC-seq data using ArchR.
-  * Step 4. new_network.R :Code for constructing promoter and enhancer regulatory networks.
+  * Step 4. new_network.R: Code for constructing promoter and enhancer regulatory networks.
   
 - promoter_enhancer: bedfile for promoter and enhancer
   * HTN_Hep1_enhancer.bed is an enhancer BED file for the HTN state of Hepatocytes_1.
